@@ -1,0 +1,39 @@
+body{
+    background-color:dimgrey;
+
+    margin: 20px;
+}
+
+.all{
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color:darkgrey;
+    padding: 20px;
+}
+
+.html-css img{
+    height: 40px;
+    width: 80px;;
+}
+
+footer{
+    text-align: center;
+}
+
+.Mood div{
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.Mood1 img{
+    height: 250px;
+}
+
+.Mood2 img{
+    height: 250px;
+}
+
+h1{
+    color: olive;
+}

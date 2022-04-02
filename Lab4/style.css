@@ -33,6 +33,11 @@ form{
 .text-left{
     text-align: left;
 }
+
+.body{
+    background-color: white;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;

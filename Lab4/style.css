@@ -1,111 +1,70 @@
-body{
-    background-color: black;
-}
-div{
-    display: block;
-}
-
-h3{
+.sub{
     text-align: center;
 }
 
-#zen-summary{
-    border: 5px dashed black;
-    padding-left: 5px;
+.btt{
+    width: 150px;
 }
 
-h1{
-    font-size: 50px;
-    padding-top: 0;
-    padding-bottom: 5px;
-    border-bottom: none;
-    color: white;
-    margin: 0;
-    font-weight: normal;
-    text-transform: uppercase;
-    text-align: center;
-}
-h2 {
-    display: block;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-}
-p{
-    text-align: justify;
-}
-
-.page-wrapper
-{
+form{
     display: grid;
-    grid-template-columns: 80% auto;
-    grid-column-gap: 20px;
-    background-color: rgb(222, 222, 222);
-}
+    grid-template-columns: 50% 50%;
 
-.sidebar{
-    padding-left: 10px;
-    background: rgba(212, 212, 212, 0.116);
+}input{
+    width: 30%;
 }
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    text-align: center;
+.myForm{
+    display: inline-block;
+    width: 30%;
 
 }
+.form-title{
+    margin: 30px 10px;
+}
+.myTitle{
+    margin: 35px 11px;
+}
 
-.contentinfo{
-    text-align: center;
-    text-align: center;
-    font-size: 25px;
+.wrapTitle{
     color: white;
-
+    padding : 5px;
 }
 
-.preamble{
-    margin: 1px;
-    border: 2px solid black;
-    background-color: rgb(183, 183, 183);
+.text-left{
+    text-align: left;
 }
-.supporting{
-    margin: 1px;
-    border: 2px solid black;
-    background-color: rgb(137, 137, 137);
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: darkolivegreen;
 }
-.participation{
-    margin: 1px;
-    border: 2px solid black;
-    background-color: rgb(183, 183, 183);
-}
-.benefits{
-    margin: 1px;
-    border: 2px solid black;
-    background-color: rgb(137, 137, 137);
-}
-.requirements{
-    margin: 1px;
-    border: 2px solid black;
-    background-color: rgb(183, 183, 183);
+.display-select{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    right: 400px;
+    top: 25px;
 }
 
-.design-selection{
-    margin: 1%;
-    border: 2px dashed black;
+.div-right{
+    display: flex;
+    flex-direction : column;
+   justify-content: center;
+    
+}
+.ff1{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction : row;
+   justify-content: space-around;
+    
 }
 
-.design-archives{
-    margin: 1%;
-    border: 2px dashed black;
+.div-left{
+    display: flex;
+    flex-direction : column;
+   justify-content: center;
 }
 
-.zen-resources{
-    margin: 1%;
-    border: 2px dashed black;
-}
 
-.css-zen-garden{
-    padding: 5px;
-}
